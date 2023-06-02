@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ElGamal Encryption</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <h1>ElGamal Encryption</h1>
+    <div class="container">
+        <div>
+            <label class="labelInput" for="message">Message:</label>
+            <textarea id="message"></textarea>
+        </div>
+        <div>
+            <button onclick="encryptAndDecrypt()">Encrypt</button>
+        </div>
+        <div class="content">
+            <div>
+                <label for="encryptedMessage" class="labelOutPut">Encrypted Message:</label>
+                <textarea id="encryptedMessage" readonly></textarea>
+            </div>
+            <div>
+                <label for="decryptedMessage" class="labelOutPut">Decrypted Message:</label>
+                <textarea id="decryptedMessage" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
